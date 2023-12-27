@@ -1,0 +1,28 @@
+.product{
+    min-width: 400px;
+    max-width: 410px;
+    margin-bottom: 30px;
+    /* margin: 10px; */
+}
+
+.product__details{
+
+}
+
+.product_title{
+
+}
+.product__details p{
+    color:yellow;
+}
+
+p.product__desc{
+    color:white;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+button{
+    cursor:pointer;
+}
