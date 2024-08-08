@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+  body {
+    background-color: #43a647;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}

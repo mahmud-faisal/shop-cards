@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-inline {
+  display: inline;
+}
+.container {
+  margin: auto;
+  width: 100%;
+}
+body {
+  min-height: 100vh;
+  background-color: red;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: cadetblue; */
+}
+#navbar .left {
+  width: 70px;
+  height: 70px;
+}
+#navbar .left img {
+  height: 100%;
+  width: 100%;
+}
+
+#navbar .right img {
+  opacity: 0.3;
+  background-color: rgb(31, 31, 111);
+  width: 50px;
+  height: auto;
+  margin: 20px 20px 0px 0px;
+}
+#navbar .right .nav-wrapper {
+  display: none;
+}
+ul li {
+  list-style-type: none;
+}
+
+#card-wrapper .card {
+  width: 300px;
+  position: relative;
+  border: 1px solid white;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  height: 330px;
+  background-color: bisque;
+  display: block;
+}
+#card-wrapper .card::after {
+  content: " .";
+  content-visibility: hidden;
+  position: absolute;
+  width: 100px;
+  top: 0;
+  background-color: bisque;
+}
+#card-wrapper .card .content {
+  display: flex;
+}
+#card-wrapper .card .content img {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  top: 0;
+}
+
+.size li {
+  padding: 3px;
+  background-color: white;
+  margin: 0px 2px 0px 0px;
+  border-radius: 5px;
+  width: 30px;
+  text-align: center;
+}
+
+p > span {
+  font-style: italic;
+}
+
+.card button {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+}
+div > h3 {
+  margin: 10px 0px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+div > p {
+  margin: 10px 0px;
+}
+#card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
